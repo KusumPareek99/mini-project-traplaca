@@ -74,29 +74,25 @@
             </div>
             <div class="form-container">
                 <div class="title">Login Form</div>
-                <form action="student_home_page.jsp" method="post">
+                <form action="login" method="post">
                     <div class="field" id="type">
-
-                        <label for="type"><span>Choose Type : </span> </label>
-                        <input type="radio" name="rdbtn" id="c" value="Company"> <span>Company</span>&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="rdbtn" id="s" value="Student"> <span>Student</span>&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="rdbtn" id="a" value="Student"> <span>Admin</span>&nbsp;&nbsp;&nbsp;
+                        <label for="usertype"><span>Choose Type: </span></label>
+                        <input type="radio" name="usertype" id="c"
+                            value="company"><span>Company</span>&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="usertype" id="s"
+                            value="student"><span>Student</span>&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="usertype" id="a" value="admin"><span>Admin</span>&nbsp;&nbsp;&nbsp;
                     </div>
-
                     <div class="field">
-                        <input type="text" id="uid" name="username" required>
-                        <div class="icon"> <i class="fa fa-user" aria-hidden="true"></i></div>
-                        <label for="uid">Username</label>
+                        <label for="username">Username</label>
+                        <input type="email" name="username" id="username">
+                        <div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
                     </div>
-
                     <div class="field">
                         <div class="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
-                        <input type="password" name="password" id="password" required />
-                        <i class="bi bi-eye-slash" id="togglePassword"
-                            style="position: absolute; top:20px;right:20px;cursor:pointer;"></i>
-                        <label for="password" id="pass">Password</label>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
                     </div>
-
                     <div class="option_div">
                         <div class="check_box">
                             <input type="checkbox" id="chkbox">
@@ -107,8 +103,27 @@
                             <a href="#">Forgot password?</a>
                         </div>
                     </div>
-                    <div class="field"><input type="submit" name="signin" id="signin" class="form-submit"
-                            value="Log in" /></div>
+                    <div class="field">
+                        <input type="submit" value="Login">
+                    </div>
+
+
+                    <!-- <div class="field">
+                                            <input type="text" id="uid" name="username" required>
+                                            <div class="icon"> <i class="fa fa-user" aria-hidden="true"></i></div>
+                                            <label for="uid">Username</label>
+                                        </div>
+
+                                        <div class="field">
+                                            <div class="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
+                                            <input type="password" name="password" id="password" required />
+                                            <i class="bi bi-eye-slash" id="togglePassword"
+                                                style="position: absolute; top:20px;right:20px;cursor:pointer;"></i>
+                                            <label for="password" id="pass">Password</label>
+                                        </div> -->
+
+
+
                     <div class="icons">
                         <a href="#"><i class="iconify" data-icon="logos:google-gmail"></i></a>
                         <a href="#"><i class="fa fa-linkedin"></i></a>

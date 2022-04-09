@@ -46,7 +46,7 @@
         </script>
         <div class="logo">
             <a href="student_home_page.jsp">
-                <img src="images/images/MINI-PROJECT-LOGO.svg" alt="">
+                <img src="images/MINI-PROJECT-LOGO.svg" alt="">
             </a>
         </div>
         <div class="navbar" id="nav">
