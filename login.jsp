@@ -95,7 +95,7 @@
                     </div>
                     <div class="option_div">
                         <div class="check_box">
-                            <input type="checkbox" id="chkbox">
+                            <input type="checkbox" id="chkbox" name="remember">
                             <span>Remember me</span>
                         </div>
 

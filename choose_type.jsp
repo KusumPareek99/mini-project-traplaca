@@ -18,10 +18,10 @@
 
                 if (studentRadio) {
 
-                    location.href = "student-signup.jsp";
+                    location.href = "student_signup.jsp";
                 } else if (companyRadio) {
 
-                    location.href = "company-signup.jsp";
+                    location.href = "company_signup.jsp";
                 }
             }
         </script>

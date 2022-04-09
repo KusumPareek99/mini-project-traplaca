@@ -7,11 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
         <link rel="shortcut icon" href="images/Book Lover_Monochromatic.svg" type="image/x-icon">
-        <link rel="stylesheet" href="css/about-us.css">
+        <link rel="stylesheet" href="css/student-placement.css">
         <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-        <title>About Us</title>
+
+        <title>STUDENT-T&P</title>
 
     </head>
 
@@ -37,9 +37,9 @@
 
             <div class="items ">
                 <a href="student_home_page.jsp">Home</a>
-                <a href="student-placement.jsp">Training & Placement</a>
-                <a href="student-careerGuide.jsp">Career Guide</a>
-                <a href="about-us.jsp" class="active ">About Us</a>
+                <a href="student_placement.jsp" class="active ">Training & Placement</a>
+                <a href="student_careerGuide.jsp">Career Guide</a>
+                <a href="about_us.jsp">About Us</a>
 
             </div>
             <div class="menu">
@@ -52,7 +52,7 @@
             <ul style="list-style: none;">
                 <li> <a href="">My Profile</a></li>
                 <hr>
-                <li><a href="login.jsp">Log Out</a></li>
+                <li><a href="login.html">Log Out</a></li>
                 <hr>
                 <li><a href="">Help</a></li>
                 <hr>
@@ -60,29 +60,23 @@
 
         </div>
         <div class="content">
-
-            <div id="scope">
-                <h3>TraPlaCa</h3>
-                <p>Traplaca is a system to guide students to choose right career and to give knowledge, skill, and
-                    aptitude
-                    and meet the manpower requirements of the industry. This system aims to provide job opportunities.
-                    The
-                    required documents like the resume
-                    and photo will be stored for every student which could be viewed by the recruiters if the student
-                    has
-                    applied for the job .</p>
-
+            <div class="articles">
+                <h3>Our Trainings</h3>
+                <div class="article-1"><a href="">A</a></div>
+                <div class="article-2"><a href="">B</a></div>
+                <div class="article-3"><a href="">C</a></div>
+                <div class="article-1"><a href="">A</a></div>
+                <div class="article-2"><a href="">B</a></div>
+                <div class="article-3"><a href="">C</a></div>
             </div>
-            <div id="team">
-                <div class="card">
-                    <img src="images/images/MINI-PROJECT-LOGO.svg" alt="">
-                </div>
-                <h3>Team Members</h3>
-                <ol>
-                    <li>Kusum Pareek</li>
-                    <li>Akanksha Singh</li>
-                    <li>BalKrishna Mehata</li>
-                </ol>
+            <div class="resources">
+                <h3>Other Best Resources for you</h3>
+                <div class="resource-1"><a href="">D</a></div>
+                <div class="resource-2"><a href="">E</a></div>
+                <div class="resource-3"><a href="">F</a></div>
+                <div class="resource-1"><a href="">D</a></div>
+                <div class="resource-2"><a href="">E</a></div>
+                <div class="resource-3"><a href="">F</a></div>
             </div>
         </div>
         <div class="footer">
@@ -93,6 +87,7 @@
                 <li><a href="#"><i class="iconify" data-icon="logos:google-gmail"></i></a></li>
             </ol>
         </div>
+
         <script>
             window.onscroll = function () {
                 myFunction()

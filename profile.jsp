@@ -24,9 +24,9 @@
 
             <div class="items ">
                 <a href="student_home_page.html">Home</a>
-                <a href="student-placement.html">Training & Placement</a>
-                <a href="student-careerGuide.html">Career Guide</a>
-                <a href="about-us.html">About Us</a>
+                <a href="student_placement.html">Training & Placement</a>
+                <a href="student_careerGuide.html">Career Guide</a>
+                <a href="about_us.html">About Us</a>
 
             </div>
             <div class="menu">
