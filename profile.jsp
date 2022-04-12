@@ -45,25 +45,60 @@
                 <hr>
             </ul>
         </div>
-        <div class="content">
-            <h1>Your Personal Details</h1><br><br><br>
-            <div class="box">
-                <label for="">Profile Photo</label>
-                <input type="file"><br><br>
-                <label for="">Name</label>
-                <input type="text" value="Student-Name" readonly><br><br>
-                <label for="">E-MAIL</label>
-                <input type="text" value="email" readonly><br><br>
-                <label for="">Location</label>
-                <select name="" id="">
-                    <option value="">Pimpri</option>
-                    <option value="">Balewadi</option>
-                    <option value="">Hinjewadi</option>
-                </select><br><br>
-                <label for="">Resume</label>
-                <input type="file"><br><br>
-            </div>
+       <div class="content">
+        <h1>Your Personal Details</h1><br><br><br>
+        <div class="box">
+            <table>
+                <tr>
+                    <td>
+                        <label for="picture">Profile Photo</label>
+                    </td>
+                    <td>
+                        <input type="file" id="picture" name="picture">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="stName">Name</label>
+
+                    </td>
+                    <td> <input type="text" id="picture" value="Student-Name" readonly></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">E-Mail</label>
+
+                    </td>
+                    <td><input type="text" value="email" readonly></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Location</label>
+
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Pimpri</option>
+                            <option value="">Balewadi</option>
+                            <option value="">Hinjewadi</option>
+                        </select>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="">Resume</label>
+
+                    </td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+            </table>
         </div>
+    </div>
         <div class="footer">
             <h3>Contact Us</h3>
             <ol>
