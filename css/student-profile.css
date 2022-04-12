@@ -86,7 +86,7 @@ body {
 div .box {
     border: none;
     border-radius: 15px;
-    height: 300px;
+    height: 350px;
     margin-bottom: 20px;
     padding: 50px 30px;
     width: 600px;
@@ -105,6 +105,26 @@ div .box table td input,
 div .box table td select {
     margin-left: 30px;
     margin-top: 5px;
+}
+
+.content .box table tr td input[type="submit"] {
+    background-color: #F9A826;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    cursor: pointer;
+    border: 1px solid #F9A826;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.content .box table tr td input[type="submit"]:hover {
+    background-color: #fff;
+    color: #F9A826;
 }
 
 .sticky {
