@@ -96,28 +96,31 @@
                         <input type="file">
                     </td>
                 </tr>
+                <tr>
+                    <td><input type="submit" value="Update Profile"></td>
+                </tr>
             </table>
         </div>
     </div>
-        <div class="footer">
-            <h3>Contact Us</h3>
-            <ol>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="iconify" data-icon="logos:google-gmail"></i></a></li>
-            </ol>
-        </div>
-        <script>
-            function veiwMenu() {
-                var x = document.getElementById("menu-link");
+    <div class="footer">
+        <h3>Contact Us</h3>
+        <ol>
+            <li><a href="#"><i class="fa fa-linkedin" ></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="iconify" data-icon="logos:google-gmail"></i></a></li>
+        </ol>
+    </div>
+    <script>
+        function veiwMenu() {
+            var x = document.getElementById("menu-link");
 
-                if (x.style.visibility === 'hidden') {
-                    x.style.visibility = 'visible';
-                } else {
-                    x.style.visibility = 'hidden';
-                }
+            if (x.style.visibility === 'hidden') {
+                x.style.visibility = 'visible';
+            } else {
+                x.style.visibility = 'hidden';
             }
-        </script>
+        }
+    </script>
     </body>
 
     </html>
