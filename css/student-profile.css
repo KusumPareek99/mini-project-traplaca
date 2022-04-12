@@ -74,7 +74,7 @@ body {
     margin-top: 20px;
     margin-left: 30px;
     position: relative;
-    left: 500px;
+    left: 400px;
 }
 
 .content h1 {
@@ -84,11 +84,27 @@ body {
 }
 
 div .box {
-    border: 1px solid black;
+    border: none;
+    border-radius: 15px;
     height: 300px;
     margin-bottom: 20px;
-    padding: 50px 50px;
+    padding: 50px 30px;
     width: 600px;
+    background-color: rgba(250, 235, 215, 0.352);
+    box-shadow: 5px 3px 3px #F9A826;
+}
+
+div .box table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    position: relative;
+    left: 90px;
+}
+
+div .box table td input,
+div .box table td select {
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 .sticky {
