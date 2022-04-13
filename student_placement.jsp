@@ -60,25 +60,25 @@
 
         </div>
         <div class="content">
-            <div class="articles">
-                <h3>Our Trainings</h3>
-                <div class="article-1"><a href="">A</a></div>
-                <div class="article-2"><a href="">B</a></div>
-                <div class="article-3"><a href="">C</a></div>
-                <div class="article-1"><a href="">A</a></div>
-                <div class="article-2"><a href="">B</a></div>
-                <div class="article-3"><a href="">C</a></div>
-            </div>
-            <div class="resources">
-                <h3>Other Best Resources for you</h3>
-                <div class="resource-1"><a href="">D</a></div>
-                <div class="resource-2"><a href="">E</a></div>
-                <div class="resource-3"><a href="">F</a></div>
-                <div class="resource-1"><a href="">D</a></div>
-                <div class="resource-2"><a href="">E</a></div>
-                <div class="resource-3"><a href="">F</a></div>
-            </div>
+        <div class="articles">
+            <h3>Our Trainings</h3>
+            <div class="article-1"><a href="https://medium.com/javarevisited/the-java-programmer-roadmap-f9db163ef2c2">Roadmap to learn Java</a></div>
+            <div class="article-2"><a href="https://roadmap.sh/python">Roadmap to learn Python</a></div>
+            <div class="article-3"><a href="https://javascript.works-hub.com/learn/front-end-development-roadmap-b08ed">Front-end Roadmap</a></div>
+            <div class="article-1"><a href="https://www.analyticsvidhya.com/blog/2021/04/step-by-step-guide-to-become-a-data-scientist-from-scratch/">Beginner's guide to  Data Science</a></div>
+            <div class="article-2"><a href="https://bigdata-madesimple.com/want-get-started-artificial-intelligence-7-easy-steps/">Getting Stared with Artificial Intelligence</a></div>
+            <div class="article-3"><a href="https://www.thedroidsonroids.com/blog/how-to-learn-android-development-programming">Learn Android Development</a></div>
         </div>
+        <div class="resources">
+            <h3>Other Best Resources for you</h3>
+            <div class="resource-1"><a href="https://www.freecodecamp.org/">Learn from Free Code Camp</a></div>
+            <div class="resource-2"><a href="https://leetcode.com/">Improve your problem solving skills with Leetcode</a></div>
+            <div class="resource-3"><a href="https://www.geeksforgeeks.org/">Learn with Geeks for Geeks</a></div>
+            <div class="resource-1"><a href="https://www.mygreatlearning.com/">Brush up your basics with Great Learning</a></div>
+            <div class="resource-2"><a href="https://www.simplilearn.com/">Learn with Simpli Learn</a></div>
+            <div class="resource-3"><a href="https://learning.tcsionhub.in/iDH/India/">Learn with TCSion Digital Learnig Hub</a></div>
+        </div>
+    </div>
         <div class="footer">
             <h3>Contact Us</h3>
             <ol>
