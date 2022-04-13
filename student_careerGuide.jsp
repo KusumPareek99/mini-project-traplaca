@@ -53,9 +53,9 @@
 
             <div class="items ">
                 <a href="student_home_page.jsp">Home</a>
-                <a href="student-placement.jsp">Training & Placement</a>
-                <a href="student-careerGuide.jsp" class="active">Career Guide</a>
-                <a href="about-us.jsp">About Us</a>
+                <a href="student_placement.jsp">Training & Placement</a>
+                <a href="student_careerGuide.jsp" class="active">Career Guide</a>
+                <a href="about_us.jsp">About Us</a>
 
             </div>
             <div class="menu">
