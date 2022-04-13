@@ -79,18 +79,18 @@
                         <label for="usertype"><span>Choose Type: </span></label>
                         <input type="radio" name="usertype" id="c"
                             value="company"><span>Company</span>&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="usertype" id="s"
-                            value="student" checked><span>Student</span>&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="usertype" id="s" value="student"
+                            checked><span>Student</span>&nbsp;&nbsp;&nbsp;
                         <input type="radio" name="usertype" id="a" value="admin"><span>Admin</span>&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="field">
-                        <label for="username">Username</label>
+                        <!-- <label for="username">Username</label> -->
                         <input type="email" name="username" id="username">
                         <div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
                     </div>
                     <div class="field">
                         <div class="icon"><i class="fa fa-lock" aria-hidden="true"></i></div>
-                        <label for="password">Password</label>
+                        <!-- <label for="password">Password</label> -->
                         <input type="password" name="password" id="password">
                     </div>
                     <div class="option_div">
