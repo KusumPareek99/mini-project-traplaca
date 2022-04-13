@@ -113,7 +113,8 @@ body {
 }
 
 .content .box table tr td input,
-.content .box table tr td textarea {
+.content .box table tr td textarea,
+.content .box form table tr td select{
     margin-left: 25px;
 }
 
