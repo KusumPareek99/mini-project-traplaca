@@ -81,41 +81,60 @@
                     <input type="text" id="search"><a href="#"><i class="fa fa-search"></i></a>
 
                 </div>
-                <div class="domains">
-                    <h3>Domain</h3>
-                    <ul>
-                        <li>Domain-1 <a href=""> Know More</a></li>
-                        <li>Domain-2 <a href=""> Know More</a></li>
-                        <li>Domain-3 <a href=""> Know More</a></li>
-                        <li>Domain-4 <a href=""> Know More</a></li>
-                        <li>Domain-5 <a href=""> Know More</a></li>
-                    </ul>
-                    <ul>
-                        <li>Domain-6 <a href=""> Know More</a></li>
-                        <li>Domain-7 <a href=""> Know More</a></li>
-                        <li>Domain-8 <a href=""> Know More</a></li>
-                        <li>Domain-9 <a href=""> Know More</a></li>
-                        <li>Domain-10<a href=""> Know More</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="trending-careers">
-                <h3>Trending Careers</h3>
+                       <div class="domains">
+                <h3>Domain</h3>
                 <ul>
-                    <li>Career-1 <a href=""> Know More</a></li>
-                    <li>Career-2 <a href=""> Know More</a></li>
-                    <li>Career-3 <a href=""> Know More</a></li>
-                    <li>Career-4 <a href=""> Know More</a></li>
-                    <li>Career-5 <a href=""> Know More</a></li>
-                    <li>Career-6 <a href=""> Know More</a></li>
-                    <li>Career-7 <a href=""> Know More</a></li>
-                    <li>Career-8 <a href=""> Know More</a></li>
-                    <li>Career-9 <a href=""> Know More</a></li>
-                    <li>Career-10 <a href=""> Know More</a></li>
+                    <li>Web Developer
+                        <a href="https://brainstation.io/career-guides/how-to-become-a-web-developer"><br>Know More</a>
+                    </li>
+                    <li>AI and ML
+                        <a href="https://uxdesign.cc/the-beginners-guide-to-understanding-artificial-intelligence-3b93e844591"><br>Know More</a>
+                    </li>
+                    <li>DBA
+                        <a href="https://www.databasestar.com/how-to-become-a-database-administrator/"><br>Know More</a>
+                    </li>
+                    <li>Testing and Automation
+                        <a href="https://angiejones.tech/test-automation-career-path/"><br>Know More</a>
+                    </li>
+                    <li>Research Field
+                        <a href="https://engineering-computer-science.wright.edu/computer-science-and-engineering/areas-of-research"><br>Know More</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>Robotics
+                        <a href="https://www.analyticsinsight.net/datarobots-no-code-ai-now-quickly-turn-any-model-into-ai-application/"> <br> Know More</a>
+                    </li>
+                    <li>Cyber Security
+                        <a href="https://expel.com/blog/a-beginners-guide-to-getting-started-in-cybersecurity/"> <br> Know More</a>
+                    </li>
+                    <li>Bioinformatics
+                        <a href="https://www.bioinformaticscareerguide.com/"><br> Know More</a>
+                    </li>
+                    <li>Blockchain
+                        <a href="https://101blockchains.com/blockchain-for-beginners/"> <br>Know More</a>
+                    </li>
+                    <li>Cloud Computing
+                        <a href="https://hackr.io/blog/what-is-cloud-computing-beginners-guide"><br> Know More</a>
+                    </li>
                 </ul>
             </div>
-
         </div>
+        <div class="trending-careers">
+            <h3>Trending Careers</h3>
+            <ul>
+                <li>Software Development Director <a href="https://www.zippia.com/director-of-software-development-jobs/">  Know More</a></li>
+                <li>Principal Software Engineer <a href="https://www.zippia.com/principal-software-engineer-jobs/what-does-a-principal-software-engineer-do/">  Know More</a></li>
+                <li>Site Reliability Engineer<a href="https://www.flagship.io/glossary/site-reliability-engineer/">  Know More</a></li>
+                <li>Security Consultant <a href="https://flatironschool.com/blog/how-to-become-a-cyber-security-consultant">  Know More</a></li>
+                <li>Cyber Security Engineer <a href="https://www.jigsawacademy.com/blogs/cyber-security/cyber-security-engineer/">  Know More</a></li>
+                <li>Full Stack Developer<a href="https://www.geeksforgeeks.org/what-is-full-stack-development/">  Know More</a></li>
+                <li>Developer Opertions(DevOps) Engineer<a href="https://www.redhat.com/en/topics/devops/devops-engineer#:~:text=A%20DevOps%20engineer%20introduces%20processes,deployment%2C%20to%20maintenance%20and%20updates.r">  Know More</a></li>
+                <li>Security Engineer<a href="https://cybersecurityguide.org/careers/security-engineer/">  Know More</a></li>
+                <li>Computer Scientist<a href="https://www.mastersindatascience.org/careers/computer-scientist/">  Know More</a></li>
+                <li>Software Developer <a href="https://www.thebalancecareers.com/software-developer-job-description-salary-and-skills-2061833">  Know More</a></li>
+            </ul>
+        </div>
+    </div>
         <div class="footer">
             <h3>Contact Us</h3>
             <ol>
