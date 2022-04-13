@@ -75,7 +75,7 @@
             </div>
             <div id="team">
                 <div class="card">
-                    <img src="images/images/MINI-PROJECT-LOGO.svg" alt="">
+                    <img src="images/MINI-PROJECT-LOGO.svg" alt="">
                 </div>
                 <h3>Team Members</h3>
                 <ol>
