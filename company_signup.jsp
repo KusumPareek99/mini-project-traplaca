@@ -16,7 +16,7 @@
 
     <body>
         <div class="container">
-            <form action="login" method="post">
+            <form action="registerRecruiter" method="post">
 
                 <div class="form-container">
                     <div class="images">
@@ -29,18 +29,18 @@
                     <div class="form-input">
                         <table>
 
-                            <div class="input-1">
-                                <tr>
-                                    <td><label for="fid">Company ID :</label></td>
-                                    <td><input id="fid" type="text" required></td>
-                                </tr>
-                            </div>
+<!--                            <div class="input-1"> -->
+<!--                                 <tr> -->
+<!--                                     <td><label for="fid">Company ID :</label></td> -->
+<!--                                     <td><input id="fid" type="text" required></td> -->
+<!--                                 </tr> -->
+<!--                             </div> -->
 
                             <div class="input-2">
                                 <tr>
                                     <td><label for="fname">Company Name :</label></td>
 
-                                    <td><input id="fname" type="text" required></td>
+                                    <td><input id="fname" type="text" name="name" required></td>
                                 </tr>
                             </div>
 
@@ -49,28 +49,34 @@
                                     <td>
                                         <label for="email">E-mail :</label>
                                     </td>
-                                    <td><input id="email" type="email" required></td>
+                                    <td><input id="email" type="email" name="email" required></td>
                                 </tr>
                             </div>
                             <div class="input-4">
                                 <tr>
                                     <td> <label for="contact">Contact Number :</label></td>
                                     <td><input id="contact" type="text" pattern="[1-9]{1}[0-9]{9}" maxlength="10"
-                                            required>
+                                           name="contact" required>
                                     </td>
                                 </tr>
                             </div>
                             <div class="input-5">
+                            <tr>
+                                <td><label for="desc">Description :</label></td>
+                                <td><input name="description" id="desc" required>	</td>
+                              </tr>
+                            </div>
+                            <div class="input-6">
                                 <td><label for="address">Address :</label></td>
                                 <td><textarea name="address" id="address" cols="40" rows="4" required></textarea></td>
                             </div>
-                            <div class="input-6">
+                            <div class="input-7">
                                 <tr>
                                     <td><label for="pass">Password :</label></td>
-                                    <td><input id="pass" type="password" required></td>
+                                    <td><input id="pass" type="password" name="password" required></td>
                                 </tr>
                             </div>
-                            <div class="input-7">
+                            <div class="input-8">
                                 <tr>
                                     <td><label for="conpass"> Confirm Password :</label></td>
                                     <td><input id="conpass" type="password" required></td>

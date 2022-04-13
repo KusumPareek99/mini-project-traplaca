@@ -80,7 +80,7 @@
                         <input type="radio" name="usertype" id="c"
                             value="company"><span>Company</span>&nbsp;&nbsp;&nbsp;
                         <input type="radio" name="usertype" id="s"
-                            value="student"><span>Student</span>&nbsp;&nbsp;&nbsp;
+                            value="student" checked><span>Student</span>&nbsp;&nbsp;&nbsp;
                         <input type="radio" name="usertype" id="a" value="admin"><span>Admin</span>&nbsp;&nbsp;&nbsp;
                     </div>
                     <div class="field">
@@ -95,7 +95,7 @@
                     </div>
                     <div class="option_div">
                         <div class="check_box">
-                            <input type="checkbox" id="chkbox" name="remember">
+                            <input type="checkbox" id="chkbox" name="remember" checked>
                             <span>Remember me</span>
                         </div>
 
